@@ -5,3 +5,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --bg-color: #083b4c;
+    --standard-square: #1389b2;
+    --fizz-square: #0cd6a1;
+    --buzz-square: #ffd166;
+    --fizzbuzz-square: #f0466f;
+}
+
+
+body{
+    background-color: var(--bg-color);
+}
+
+h1{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: var(--standard-square);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.fizz{
+    background-color: var(--fizz-square);
+}
+
+.buzz{
+    background-color: var(--buzz-square);
+}
+
+.fizz-buzz{
+    background-color: var(--fizzbuzz-square);
+}
